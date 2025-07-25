@@ -1,36 +1,41 @@
-<footer class="footer container-fluid p-lg-4 p-2" >
-  <div class="row">
-    <a class="col-12 text-decoration-none font-poppins m-1 text-dark" style="font-size: 1.66vw;" href="https://iisc.ac.in">
-      <img src="./assets/images/logoAndBanner/IISc_Master_Seal_Black.jpg" width="50px">
+<footer class="footer container-fluid p-lg-4 p-2">
+  <div class="row text-center text-lg-start align-items-start">
+    <!-- Logo & Institute Name -->
+    <a class="col-12 text-decoration-none font-poppins mb-3 text-dark d-flex align-items-center justify-content-center justify-content-lg-start"
+       style="font-size: clamp(1rem, 1.5vw, 1.5rem);" href="https://iisc.ac.in">
+      <img src="./assets/images/logoAndBanner/IISc_Master_Seal_Black.jpg" width="50px" class="me-2">
       Indian Institute of Science
     </a>
+
+    <!-- Navigation Links -->
     <div class="col-lg-6 col-12">
-      <ul class="row font-h">
-        <a class="link-dark text-decoration-none font-noto-sans  col-12 my-lg-3 my-2   " aria-current="page" routerLink="/">HOME</a>
-        <a class="link-dark text-decoration-none font-noto-sans  col-12 my-lg-3 my-2  " aria-current="page" routerLink="/career">CAREER</a>
-        <a class="link-dark text-decoration-none font-noto-sans  col-12 my-lg-3 my-2   " aria-current="page" routerLink="/blogs">BLOG</a>
-        <a class="link-dark text-decoration-none font-noto-sans  col-12 my-lg-3 my-2   " aria-current="page" href="https://icwar.iisc.ac.in/" target="_blank">ICWAR WEBPAGE</a>
+      <ul class="list-unstyled text-center text-lg-start font-h p-0 m-0">
+        <li><a class="link-dark text-decoration-none font-noto-sans d-block my-lg-3 my-2" routerLink="/">HOME</a></li>
+        <li><a class="link-dark text-decoration-none font-noto-sans d-block my-lg-3 my-2" routerLink="/career">CAREER</a></li>
+        <li><a class="link-dark text-decoration-none font-noto-sans d-block my-lg-3 my-2" routerLink="/blogs">BLOG</a></li>
+        <li><a class="link-dark text-decoration-none font-noto-sans d-block my-lg-3 my-2" href="https://icwar.iisc.ac.in/" target="_blank">ICWaR WEBPAGE</a></li>
       </ul>
     </div>
-    <div class="col-lg-6 col-12 ">
-      <ul class="row text-lg-end ">
-        <div class="row col-12 my-lg-3 my-2 align-items-lg-end d-lg-flex justify-content-lg-end" style="float: right;">
-          <a class="link-dark text-decoration-none col-1 " href="https://twitter.com/Bramha_tweets"><i class="fa fa-2x fa-twitter " aria-hidden="true"></i></a>
-          <a class="link-dark text-decoration-none col-1 m-lg-0 mx-5" href="https://github.com/WhythiskolaveriD"><i class="fa fa-2x fa-github " aria-hidden="true"></i></a>
-          <a class="link-dark text-decoration-none col-1" href="https://www.linkedin.com/in/bramha-dutt-vishwakarma-5b854826/"><i class="fa fa-2x fa-linkedin " aria-hidden="true"></i></a>
-        </div>
-        <span class="col-12 my-lg-3 my-2 ">
-          +91 (0)80 22932870
-        </span>
-        <a class="col-12 my-lg-3 my-2 text-dark text-decoration-none font-noto-sans  " href="mail-to:bramha@iisc.ac.in">bramha&#64;iisc.ac.in</a>
-        <p class="col-12 my-lg-3 my-2 ">CV Raman Road, Bangalore, India</p>
+
+    <!-- Contact & Social Links -->
+    <div class="col-lg-6 col-12">
+      <ul class="list-unstyled text-center text-lg-end p-0 m-0">
+        <li class="my-lg-3 my-2 d-flex justify-content-center justify-content-lg-end gap-3">
+          <a class="link-dark text-decoration-none" href="https://twitter.com/Bramha_tweets"><i class="fa fa-2x fa-twitter"></i></a>
+          <a class="link-dark text-decoration-none" href="https://github.com/WhythiskolaveriD"><i class="fa fa-2x fa-github"></i></a>
+          <a class="link-dark text-decoration-none" href="https://www.linkedin.com/in/bramha-dutt-vishwakarma-5b854826/"><i class="fa fa-2x fa-linkedin"></i></a>
+        </li>
+        <li class="my-lg-3 my-2">+91 (0)80 22932870</li>
+        <li class="my-lg-3 my-2"><a class="text-dark text-decoration-none font-noto-sans" href="mailto:bramha@iisc.ac.in">bramha&#64;iisc.ac.in</a></li>
+        <li class="my-lg-3 my-2">CV Raman Road, Bangalore, India</li>
       </ul>
     </div>
-    </div>
-    <hr class="w-100 ">
-<p class="text-dark font-noto-sans">
-  Copyright: Bramha Dutt Vishwakarma.
-  <!-- <span style="float: right;"><a class="font-poppins link-dark" href="https://architbubber.github.io" target="_blank">Crafted by Archit Bubber</a></span> -->
-   <span *ngIf="isDevMode" style="float: right;"><a class="font-poppins link-dark btn btn-outline-dark hover-transcluscent" routerLink="/edit-site" target="_blank">Edit Site</a></span>
-</p>
+  </div>
+
+  <hr class="w-100">
+
+  <!-- Copyright -->
+  <p class="text-dark font-noto-sans text-center">
+    <i class="fa fa-copyright"></i> Bramha Dutt Vishwakarma.
+  </p>
 </footer>

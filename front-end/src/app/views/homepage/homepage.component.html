@@ -28,17 +28,37 @@
   </div>
 </div>
 
-<div class="text-center container-flex">
-  <h1 class="text-center font-poppins" style="overflow-wrap: break-word;line-height: 1.15;font-size: 3.33vmax;">Curious individuals working together!</h1>
-  <p>We are a group of researchers with education and training in diverse fields, working together on complex interdisciplinary problems in the field of Geodesy, water and climate.</p>
+<!-- PI Section with About Text -->
+<div class="row align-items-center px-5">
+  <!-- PI Card -->
+  <div class="col-md-4 mb-2 order-md-1 order-2">
+    <div class="card pi-card text-center p-3">
+      <img [src]="data.team[0].imageSrc" alt="{{data.team[0].name}}" class="img-fluid pi-image mb-2">
+      <h3 class="card-title font-poppins">{{ data.team[0].name }}</h3>
+      <h5 class="card-title font-noto-sans">{{ data.team[0].role }}</h5>
+    </div>
+  </div>
+
+  <!-- About Text -->
+  <div class="col-md-8 text-center text-md-start about-text order-md-2 order-1">
+    <h1 class="font-poppins" style="overflow-wrap: break-word; line-height: 1.15; font-size: 3.33vmax;">
+      Curious individuals working together!
+    </h1>
+    <p>
+      We are a group of researchers with education and training in diverse fields,
+      working together on complex interdisciplinary problems in the field of Geodesy,
+      water and climate.
+    </p>
+  </div>
 </div>
 
-<!-- Team members -->
-<div class="row justify-content-between p-5 d-flex align-items-stretch">
-  <div *ngFor="let member of data.team; index as index" class="col-4 card p-2" [ngClass]="index < 3?'border-1 border-black':'border-0'">
-    <img [src]="member.imageSrc" alt="" class="img-fluid m-1">
-    <h3 class="card-title font-poppins font-h2">{{member.name}}</h3>
-    <h5 class="card-title font-noto-sans font-h3">{{member.role}}</h5>
+<!-- Other Team Members -->
+<div class="row mb-3 justify-content-center">
+  <div *ngFor="let member of data.team.slice(1); index as index"
+       class="col-md-2 col-5 card p-md-2 m-md-3 text-center team-card">
+    <img [src]="member.imageSrc" alt="{{member.name}}" class="img-fluid m-1 team-image">
+    <h5 class="card-title font-poppins">{{ member.name }}</h5>
+    <h6 class="card-title font-noto-sans">{{ member.role }}</h6>
   </div>
 </div>
 
@@ -82,7 +102,7 @@
 
 <div class="container-fluid py-5 p-lg-5 p-1 text-center text-white " style="background-color: rgba(40,40,40);">
   <h1 class="font-poppins" style="font-size: 3.33vmax;">Group News</h1>
-  <ul class="m-lg-5 m-3 font-noto-sans font-h3" style="text-align: justify;line-height: 1.94vmax;">
+  <ul class="m-lg-5 m-2 font-noto-sans font-h3" style="text-align: justify;line-height: 2.5vmax;">
     <li *ngFor="let news of data.groupNews">{{news}}</li>
   </ul>
 </div>

@@ -9,33 +9,43 @@ export const data = {
   team: [
     {
       name: "Bramha",
-      role: "PI",
-      imageSrc: "./assets/images/team/bdv_snowdonia (2).jpg"
+      role: "Principal Investigator",
+      imageSrc: "./assets/images/team/BramhaDV.webp"
+    },
+    {
+      name: "Maya",
+      role: "DST INSPIRE Faculty",
+      imageSrc: "./assets/images/team/MayaRS.webp"
+    },
+    {
+      name: "Retinder",
+      role: "Postdoctoral Researcher",
+      imageSrc: "./assets/images/team/RetinderK.webp"
     },
     {
       name: "Vivek",
-      role: "PhD student",
-      imageSrc: "./assets/images/team/Photo (1).jpg"
-    },
-    {
-      name: "Arindan",
-      role: "Postdoc",
-      imageSrc: "./assets/images/team/Mandal-removebg-preview.jpg"
-    },
-    {
-      name: "Vandana",
-      role: "Project associate",
-      imageSrc: "./assets/images/team/Image.jpeg"
-    },
-    {
-      name: "Amin",
-      role: "Senior project associate",
-      imageSrc: "./assets/images/team/Amin_Shakya-91d57738.JPG"
+      role: "PhD Student",
+      imageSrc: "./assets/images/team/VivekY.webp"
     },
     {
       name: "Balaram",
-      role: "PMRF (PhD student)",
-      imageSrc: "./assets/images/team/balaram-a36af553.JPG"
+      role: "PMRF (PhD Student)",
+      imageSrc: "./assets/images/team/BalaramShaw.webp"
+    },
+    {
+      name: "Chethan",
+      role: "PhD Student",
+      imageSrc: "./assets/images/team/ChethanVA.webp"
+    },
+    {
+      name: "Abhirup",
+      role: "PhD Student",
+      imageSrc: "./assets/images/team/AbhirupPal.webp"
+    },
+    {
+      "name": "Dnyaneshwar",
+      "role": "PhD Student",
+      "imageSrc": "./assets/images/team/DGawai.webp"
     }
   ],
   latestPublication: {

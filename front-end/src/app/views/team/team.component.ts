@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import {data} from '../../../assets/data/teams'
+import {currentTeam, alumni} from '../../../assets/data/teams'
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-team',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './team.component.html',
   styleUrl: './team.component.scss'
 })
 export class TeamComponent {
-  data = data
+  currentTeam = currentTeam;
+  alumni = alumni;
 }
