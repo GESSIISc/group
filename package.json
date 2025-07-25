@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"git pull origin development && npm run start-servers",
-    "start-servers" : "(cd front-end && npm start) & (cd server && npm start)",
-    "build" : "(cd front-end && npm run build)",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "git pull origin development && npm run start-servers",
+  "start-servers": "(cd front-end && npm start) & (cd server && npm start)",
+  "clean": "rimraf docs",
+  "build": "npm run clean && (cd front-end && npm run build)",
+  "deploy": "npm run build && git add docs && git commit -m \"Deploy build\" && git push origin development",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "IISc"
 }

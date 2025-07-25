@@ -1,0 +1,130 @@
+export const data = [
+  {
+    "title": "C. Ternikar, S. Goswami, R. Kandala, et al. “Challenges in Validating Large-Scale ET Estimates: A Comparative Study of Six Global Products”. ESS Open Archive. December 11, 2024. doi: 10.22541/essoar.173393976.69532665/v1.",
+    "doi": "10.22541/essoar.173393976.69532665/v1"
+  },
+  {
+    "title": "S. Goswami, C. R. Ternikar, R. Kandala, N. S. Pillai, V. K. Yadav, J. Joseph, S. Ghosh, B. D. Vishwakarma “Water budget-based evapotranspiration product captures natural and human-caused variability”, (2024), Env. Res. Letters, 19(9), 094034, doi: 10.1088/1748-9326/ad63bd.",
+    "doi": "10.1088/1748-9326/ad63bd"
+  },
+  {
+    "title": "A. Mandal, B. D. Vishwakarma, T. Angchuk, M. F. Azam, P. K. Garg, and M. Soheb “Glacier mass balance and its climatic and non-climatic drivers in the Ladakh region during 2000-2021 from remote sensing data”, (2024), Journal of Glaciology, 1-23, published online, doi: 10.1017/jog.2024.19.",
+    "doi": "10.1017/jog.2024.19"
+  },
+  {
+    "title": "Y. Zhong, B. Tian, B. D. Vishwakarma, W. Feng, Y. Wu, H. Bai, and M. Zhong “Reinterpreting Global GRACE Trends Based on Century Long GRACE REC Data”, (2023), Water Resources Research, 59 (12), e2023WR035817, doi: 10.1029/2023WR035817.",
+    "doi": "10.1029/2023WR035817"
+  },
+  {
+    "title": "J. Xiong, Abhishek, L. Xu, H. A. Chandanpurkar, J. S. Famiglietti, C. Zhang, G. Ghiggi, S. Guo, Y. Pan, and B. D. Vishwakarma “ET-WB: water balance-based estimations of terrestrial evaporation over global land and major global basins”, (2023), Earth System Science Data, 15(10), 4571–4597, doi: 10.5194/essd-15-4571-2023.",
+    "doi": "10.5194/essd-15-4571-2023"
+  },
+  {
+    "title": "F. Sabzehee, A. R. Amiri-Simkooei, S. Iran-Pour, B. D. Vishwakarma, and R. Kerachian “Enhancing spatial resolution of GRACE-derived groundwater storage anomalies in Urmia catchment using machine learning downscaling methods”, (2023), Journal of Environmental Management, 330, 117180, doi: 10.1016/j.jenvman.2022.117180.",
+    "doi": "10.1016/j.jenvman.2022.117180"
+  },
+  {
+    "title": "I. N. Otosaka, A. Shepherd, E. Ivins, ... B. D. Vishwakarma, ... and B. Wouters “Mass balance of the Greenland and Antarctic Ice Sheets from 1992 to 2020”, (2022), Earth System Science Data, 15(4), 1597–1616, doi: 10.5194/essd-15-1597-2023.",
+    "doi": "10.5194/essd-15-1597-2023"
+  },
+  {
+    "title": "D. M. Mitchell, E. J. Stone, O. D. Andrews, J. L. Bamber, R. J. Bingham, J. Browse, ... B. D. Vishwakarma, ... M. Taylor, R. Tunnicliffe “The Bristol CMIP6 data hackathon”, (2022), Weather, 77, 6, doi: 10.1002/wea.4161.",
+    "doi": "10.1002/wea.4161"
+  },
+  {
+    "title": "J. Rougier, A. Brady, J.L. Bamber, S. Chuter, S. Royston, B. D. Vishwakarma, R.Westaway and Y. Ziegler “The scope of the Kalman filter for spatio-temporal applications in environmental science”, (2022), Environmetrics, e2773, doi: 10.1002/env.2773.",
+    "link": "https://doi.org/10.1002/env.2773"
+  },
+  {
+    "title": "Y. Ziegler, B. D. Vishwakarma, A. Brady, S. Chuter, S. Royston, J. Rougier, R.Westaway and J.L. Bamber “Can GPS and GRACE data be used to separate past and present-day surface loading in a data-driven approach”, (2022), Geophysical Journal International, 232, 884-901, doi: 10.1093/gji/ggac365.",
+    "link": "https://doi.org/10.1093/gji/ggac365"
+  },
+  {
+    "title": "B. D. Vishwakarma, Y. Ziegler, J. L. Bamber, S. Royston “Separating GIA signal from surface mass change using GPS and GRACE data”, (2022), Geophysical Journal International, 232, 537-547, doi: 10.1093/gji/ggac336.",
+    "link": "https://doi.org/10.1093/gji/ggac336"
+  },
+  {
+    "title": "B. D. Vishwakarma, RAAJ Ramsankaran, M. F. Azam, T. Bolch, A. Mandal, S. Srivastava, P. Kumar, R. Sahu, P. J. Navinkumar, S. R. Tanniru, A. Javed, M. Soheb, A. P. Dimri, M. Yadav, B. Devaraju, P. Chinnasamy, M. J. Reddy, G. P. Murugesan, M. Arora, S. K. Jain, C. S. P. Ojha, S. Harrison and J. L. Bamber “Challenges in understanding the variability of the cryosphere in the Himalaya and its impact on the regional water resources”, (2022), Frontiers in water 4:909246, doi: 10.3389/frwa.2022.909246.",
+    "link": "https://doi.org/10.3389/frwa.2022.909246"
+  },
+  {
+    "title": "F. Lehmann, B. D. Vishwakarma, and J. L. Bamber 'How well are we able to close the water budget at the global scale?', (2022), Hydrol. Earth Syst. Sci., 26, 35–54, doi: 10.5194/hess-26-35-2022.",
+    "link": "https://doi.org/10.5194/hess-26-35-2022"
+  },
+  {
+    "title": "B. D. Vishwakarma, M. Horwath, A. Groh, J. L. Bamber “Accounting for GIA signal in GRACE products”, (2021), Geophysical Journal International, doi: 10.1093/gji/ggab464.",
+    "link": "https://doi.org/10.1093/gji/ggab464"
+  },
+  {
+    "title": "A. Tiwari, Arun G., B. D. Vishwakarma “Parameter importance assessment improves efficacy of machine learning methods for predicting snow avalanche sites in Leh-Manali Highway, India”, (2021), Science of the Total Environment, 794, doi: 10.1016/j.scitotenv.2021.148738.",
+    "link": "https://doi.org/10.1016/j.scitotenv.2021.148738"
+  },
+  {
+    "title": "B. D. Vishwakarma, J. Zhang, and N. Sneeuw “Downscaling GRACE total water storage change using partial least squares regression”, (2021), Nature Scientific Data, 8, 95, doi: 10.1038/s41597-021-00862-6.",
+    "link": "https://doi.org/10.1038/s41597-021-00862-6"
+  },
+  {
+    "title": "B. D. Vishwakarma, P. Bates, N. Sneeuw, R. M.Westaway, J. L. Bamber “Re-assessing global water storage trends from GRACE time series”, (2020), Env. Res. Letters, 16(3), 034005, doi: 10.1088/1748-9326/abd4a9.",
+    "link": "https://doi.org/10.1088/1748-9326/abd4a9"
+  },
+  {
+    "title": "B. D. Vishwakarma 'Monitoring Droughts from GRACE', (2020), Frontiers in Env. Sci., 8, 274. doi: 10.1016/j.rsase.2020.100361.",
+    "link": "https://doi.org/10.1016/j.rsase.2020.100361"
+  },
+  {
+    "title": "A. Balha, B. D. Vishwakarma, C. Singh, S. Pandey “Predicting impact of urbanization on water resources in megacity, Delhi”, (2020), Remote Sensing Applications: Society and Environment, 20, 100361, doi: 10.1016/j.rsase.2020.100361.",
+    "link": "https://doi.org/10.1016/j.rsase.2020.100361"
+  },
+  {
+    "title": "P. Saemian, O. Elmi, B. D. Vishwakarma, M. J. Tourian, S. Roohi, M. Dashtabadi, and N. Sneeuw “Analysing the Lake Urmia restoration progress using ground-based and spaceborne observations”, (2020), Science of the Total Environment, 721, 139857, doi: 10.1016/j.scitotenv.2020.139857.",
+    "link": "https://doi.org/10.1016/j.scitotenv.2020.139857"
+  },
+  {
+    "title": "B. D. Vishwakarma, S. Royston, R. E. M. Riva, R. M. Westaway, J. L. Bamber “Sea level budgets should account for ocean bottom deformation”, (2020), Geophysical Research Letters, 47, e2019GL086492, doi: 10.1029/2019GL086492.",
+    "link": "https://doi.org/10.1029/2019GL086492"
+  },
+  {
+    "title": "S. Royston, B. D. Vishwakarma, R. M. Westaway, J. Rougier, Z. Sha, and J. L. Bamber “Can we resolve the basin scale sea level budget from GRACE ocean mass”, (2020), JGR Oceans, 125, e2019JC015535, doi: 10.1029/2019JC015535.",
+    "link": "https://doi.org/10.1029/2019JC015535"
+  },
+  {
+    "title": "A. Shepherd, E. Ivins, E. Rignot, B. Smith, M. van den Broeke, I. Velicogna, P. Whitehouse, K. Briggs, I. Joughin, G. Krinner, S. Nowicki, T. Payne, T. Scambos, N. Schlegel, G. A, C. Agosta, A. Ahlstrøm, G. Babonis, V. Barletta, A. Blazquez, J. Bonin, B. Csatho, R. Cullather, D. Felikson, X. Fettweis, R. Forsberg, H. Gallee, A. Gardner, L. Gilbert, A. Groh, B. Gunter, E. Hanna, C. Harig, V. Helm, A. Horvath, M. Horwath, S. Khan, K. K. Kjeldsen, H. Konrad, P. Langen, B. Lecavalier, B. Loomis, S. Luthcke, M. McMillan, D.Melini, S. Mernild, Y. Mohajerani, P. Moore, J. Mouginot, G. Moyano, A. Muir, T. Nagler, G. Nield, J. Nilsson, B. Noel, I. Otosaka, M. E. Pattle, W. R. Peltier, N. Pie, R. Rietbroek, H. Rott, L. Sandberg-Sørensen, I. Sasgen, H. Save, B. Scheuchl, E.Schrama, L. Schr¨oder, K. Seo, S. Simonsen, T. Slater, G. Spada, T. Sutterley, M. Talpe, L. Tarasov, W. Jan van de Berg,W. van derWal, M. vanWessem, B. D. Vishwakarma, D.Wiese, B.Wouters, and J.Wuite “Mass balance of the Greenland Ice Sheet from 1992 to 2018”, (2020), Nature, 579, 233–239, doi: 10.1038/s41586-019-1855-2.",
+    "link": "https://doi.org/10.1038/s41586-019-1855-2"
+  },
+  {
+    "title": "A. Tiwari, A. Ahuja, B. D. Vishwakarma, and K. Jain “Groundwater Potential Zone (GWPZ) for Urban Development Site Suitability Analysis in Bhopal, India”, (2019), Journal of the Indian Society of Remote Sensing, 47, 1793-1815, doi: 10.1007/s12524-019-01027-0.",
+    "link": "https://doi.org/10.1007/s12524-019-01027-0"
+  },
+  {
+    "title": "F. Sabzehee, V. Nafisi, S. Iran Pour, and B. D. Vishwakarma “Analysis of the precipitation climate signal using empirical mode decomposition (EMD) over the Caspian catchment area”, (2019), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, XLII-4/W18, 923–929, doi:10.5194/isprs-archives-XLII-4-W18-923-2019.",
+    "link": "https://doi.org/10.5194/isprs-archives-XLII-4-W18-923-2019"
+  },
+  {
+    "title": "F. Sabzehee, V. Nafisi, S. Iran Pour, and B. D. Vishwakarma “Investigation of the correlation between GRACE TWS and soil moisture in Sarakhs catchment”, (2019), The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, XLII-4/W18, 931–934, doi:10.5194/isprs-archives-XLII-4-W18-931-2019.",
+    "link": "https://doi.org/10.5194/isprs-archives-XLII-4-W18-931-2019"
+  },
+  {
+    "title": "Bhattarai, K. Mallick, J. Stuart, B. D. Vishwakarma, R. Niraula, S. Sen, and M. Jain “An automated multimodel evapotranspiration mapping framework using remotely sensed and reanalysis data”, (2019), Remote Sensing of Environment, 229, 69–92, doi: 10.1016/j.rse.2019.04.026.",
+    "link": "https://doi.org/10.1016/j.rse.2019.04.026"
+  },
+  {
+    "title": "A. Shepherd, E. Ivins, E. Rignot, B. Smith, M. van den Broeke, I. Velicogna, P. Whitehouse, K. Briggs, I. Joughin, G. Krinner, S. Nowicki, T. Payne, T. Scambos, N. Schlegel, G. A, C. Agosta, A. Ahlstrøm, G. Babonis, V. Barletta, A. Blazquez, J. Bonin, B. Csatho, R. Cullather, D. Felikson, X. Fettweis, R. Forsberg, H. Gallee, A. Gardner, L. Gilbert, A. Groh, B. Gunter, E. Hanna, C. Harig, V. Helm, A. Horvath, M. Horwath, S. Khan, K. K. Kjeldsen, H. Konrad, P. Langen, B. Lecavalier, B. Loomis, S. Luthcke, M. McMillan, D.Melini, S. Mernild, Y. Mohajerani, P. Moore, J. Mouginot, G. Moyano, A. Muir, T. Nagler, G. Nield, J. Nilsson, B. Noel, I. Otosaka, M. E. Pattle, W. R. Peltier, N. Pie, R. Rietbroek, H. Rott, L. Sandberg-Sørensen, I. Sasgen, H. Save, B. Scheuchl, E.Schrama, L. Schr¨oder, K. Seo, S. Simonsen, T. Slater, G. Spada, T. Sutterley, M. Talpe, L. Tarasov, W. Jan van de Berg,W. van derWal, M. vanWessem, B. D. Vishwakarma, D.Wiese, B.Wouters, and J.Wuite “Mass balance of the Antarctic Ice Sheet from 1992 to 2017”, (2018), Nature, 558, 219-222, doi: 10.1038/s41586-018-0179-y.",
+    "link": "https://doi.org/10.1038/s41586-018-0179-y"
+  },
+  {
+    "title": "B. D. Vishwakarma, B. Devaraju, and N. Sneeuw “What is the spatial resolution of GRACE products for hydrology?”, (2018), Remote Sensing, 10, 582, doi: 10.3390/rs10060852.",
+    "link": "https://doi.org/10.3390/rs10060852"
+  },
+  {
+    "title": "B. D. Vishwakarma, B. Devaraju, and N. Sneeuw “A data-driven approach for repairing the hydrological catchment signal damage due to filtering of GRACE products”, (2017), Water Resources Research, 53, 9824– 9844, doi:10.1002/2017WR021150.",
+    "link": "https://doi.org/10.1002/2017WR021150"
+  },
+  {
+    "title": "B. D. Vishwakarma, B. Devaraju, and N. Sneeuw “Minimizing the effects of filtering on catchment scale GRACE solutions”, (2016),Water Resources Research, 52, 5868–5890, doi:10.1002/2016WR018960.",
+    "link": "https://doi.org/10.1002/2016WR018960"
+  },
+  {
+    "title": "B. D. Vishwakarma, K. Jain, N. Sneeuw, and B. Devaraju “Mumbai 2005, Bihar 2008 Flood Reflected in Mass Changes Seen by GRACE Satellites”, (2013), Journal of Indian Society of Remote Sensing, 41(3), 687–695, doi:10.1007/s12524-012-0256-x.",
+    "link": "https://doi.org/10.1007/s12524-012-0256-x"
+  }
+];
