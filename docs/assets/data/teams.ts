@@ -49,6 +49,13 @@ export const currentTeam: TeamMember[] = [
   },
   {
     designation: "PhD Student",
+    name: "Vandana S",
+    bio: "Hi! I am a PhD student in the GESS group. I did my bachelor’s in Applied Electronics and Instrumentation Engineering from LBSITW, Kerala University, and later completed my master’s in Geoinformatics from TERI SAS, Delhi. Here at ICWaR, I have been working on developing an algorithm for satellite remote sensing to monitor coastal sea levels. I am really interested in radar remote sensing and its applications in oceanography and the atmospheric sciences. Outside of research, I love traveling, singing, and reading.",
+    imageSrc: "./assets/images/team/VandanaS.webp",
+    email: "vandanas1@IISc.ac.in"
+  },
+  {
+    designation: "PhD Student",
     name: "Abhirup Pal",
     bio: "I am pursuing a PhD from the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), supported by a GATE fellowship. I completed my BSc in Statistics from Maulana Azad College, University of Calcutta, and my MSc in Statistics from Bangalore University, where my master’s project focused on time series modeling using ARCH, GARCH, and Causality analysis.  My research focuses on applying Bayesian frameworks to hydrological and climate-related problems. I am particularly interested in uncertainty quantification, signal detection, and spatio-temporal modeling, inspired by recent developments in climate signal analysis and sea-level rise attribution. My broader interests include probability theory, frequentist inference, regression analysis, time series, and Bayesian statistics.",
     imageSrc: "./assets/images/team/AbhirupPal.webp",

@@ -38,6 +38,11 @@ export const data = {
       imageSrc: "./assets/images/team/ChethanVA.webp"
     },
     {
+      name: "Vandana S",
+      role: "PhD Student",
+      imageSrc: "./assets/images/team/VandanaS.webp"
+    },
+    {
       name: "Abhirup",
       role: "PhD Student",
       imageSrc: "./assets/images/team/AbhirupPal.webp"
