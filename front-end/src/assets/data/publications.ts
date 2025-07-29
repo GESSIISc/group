@@ -1,35 +1,35 @@
 export const data = [
   {
     "title": "C. Ternikar, S. Goswami, R. Kandala, et al. “Challenges in Validating Large-Scale ET Estimates: A Comparative Study of Six Global Products”. ESS Open Archive. December 11, 2024. doi: 10.22541/essoar.173393976.69532665/v1.",
-    "doi": "10.22541/essoar.173393976.69532665/v1"
+    "link": "https://doi.org/10.22541/essoar.173393976.69532665/v1"
   },
   {
     "title": "S. Goswami, C. R. Ternikar, R. Kandala, N. S. Pillai, V. K. Yadav, J. Joseph, S. Ghosh, B. D. Vishwakarma “Water budget-based evapotranspiration product captures natural and human-caused variability”, (2024), Env. Res. Letters, 19(9), 094034, doi: 10.1088/1748-9326/ad63bd.",
-    "doi": "10.1088/1748-9326/ad63bd"
+    "link": "https://doi.org/10.1088/1748-9326/ad63bd"
   },
   {
     "title": "A. Mandal, B. D. Vishwakarma, T. Angchuk, M. F. Azam, P. K. Garg, and M. Soheb “Glacier mass balance and its climatic and non-climatic drivers in the Ladakh region during 2000-2021 from remote sensing data”, (2024), Journal of Glaciology, 1-23, published online, doi: 10.1017/jog.2024.19.",
-    "doi": "10.1017/jog.2024.19"
+    "link": "https://doi.org/10.1017/jog.2024.19"
   },
   {
     "title": "Y. Zhong, B. Tian, B. D. Vishwakarma, W. Feng, Y. Wu, H. Bai, and M. Zhong “Reinterpreting Global GRACE Trends Based on Century Long GRACE REC Data”, (2023), Water Resources Research, 59 (12), e2023WR035817, doi: 10.1029/2023WR035817.",
-    "doi": "10.1029/2023WR035817"
+    "link": "https://doi.org/10.1029/2023WR035817"
   },
   {
     "title": "J. Xiong, Abhishek, L. Xu, H. A. Chandanpurkar, J. S. Famiglietti, C. Zhang, G. Ghiggi, S. Guo, Y. Pan, and B. D. Vishwakarma “ET-WB: water balance-based estimations of terrestrial evaporation over global land and major global basins”, (2023), Earth System Science Data, 15(10), 4571–4597, doi: 10.5194/essd-15-4571-2023.",
-    "doi": "10.5194/essd-15-4571-2023"
+    "link": "https://doi.org/10.5194/essd-15-4571-2023"
   },
   {
     "title": "F. Sabzehee, A. R. Amiri-Simkooei, S. Iran-Pour, B. D. Vishwakarma, and R. Kerachian “Enhancing spatial resolution of GRACE-derived groundwater storage anomalies in Urmia catchment using machine learning downscaling methods”, (2023), Journal of Environmental Management, 330, 117180, doi: 10.1016/j.jenvman.2022.117180.",
-    "doi": "10.1016/j.jenvman.2022.117180"
+    "link": "https://doi.org/10.1016/j.jenvman.2022.117180"
   },
   {
     "title": "I. N. Otosaka, A. Shepherd, E. Ivins, ... B. D. Vishwakarma, ... and B. Wouters “Mass balance of the Greenland and Antarctic Ice Sheets from 1992 to 2020”, (2022), Earth System Science Data, 15(4), 1597–1616, doi: 10.5194/essd-15-1597-2023.",
-    "doi": "10.5194/essd-15-1597-2023"
+    "link": "https://doi.org/10.5194/essd-15-1597-2023"
   },
   {
     "title": "D. M. Mitchell, E. J. Stone, O. D. Andrews, J. L. Bamber, R. J. Bingham, J. Browse, ... B. D. Vishwakarma, ... M. Taylor, R. Tunnicliffe “The Bristol CMIP6 data hackathon”, (2022), Weather, 77, 6, doi: 10.1002/wea.4161.",
-    "doi": "10.1002/wea.4161"
+    "link": "https://doi.org/10.1002/wea.4161"
   },
   {
     "title": "J. Rougier, A. Brady, J.L. Bamber, S. Chuter, S. Royston, B. D. Vishwakarma, R.Westaway and Y. Ziegler “The scope of the Kalman filter for spatio-temporal applications in environmental science”, (2022), Environmetrics, e2773, doi: 10.1002/env.2773.",
