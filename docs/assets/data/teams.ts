@@ -15,7 +15,7 @@ export const currentTeam: TeamMember[] = [
   {
     designation: "DST INSPIRE Faculty",
     name: "Maya Raghunath Suryawanshi",
-    bio: "I hold a Ph.D. from the Space Applications Centre, ISRO, with a background in Physics from the University of Mumbai. My doctoral and postdoctoral research (Lancaster University, UK) focused on investigating polar ice sheets (Greenland and Antarctica) using satellite altimetry and assessing uncertainties in satellite measurements. Over time, my research scope broadened to include terrestrial hydrology. At the Indian Institute of Science (IISc), I began working with GRACE satellite data to validate and downscale total water storage anomalies over India. This shift has allowed me to integrate remote sensing with hydrological analysis, and now I am now keen in combining satellite observations with hydrological modeling to better understand water dynamics across Earth's surface and subsurface.",
+    bio: "I hold a Ph.D. from the Space Applications Centre, ISRO, with a background in Physics from the University of Mumbai. My doctoral and postdoctoral work (Lancaster University, UK) focused on polar ice sheets using satellite altimetry. Later, at IISc, I expanded into terrestrial hydrology, using GRACE data to validate and downscale water storage anomalies over India. I now aim to integrate satellite observations with hydrological modeling to study water dynamics.",
     imageSrc: "./assets/images/team/MayaRS.webp",
     email: "mayas@IISc.ac.in"
   },
