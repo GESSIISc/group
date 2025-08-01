@@ -67,6 +67,13 @@ export const currentTeam: TeamMember[] = [
     bio: "I am deeply fascinated by the magical capabilities of Synthetic Aperture Radar (SAR) remote sensing and its potential applications in hydrological studies, especially in addressing the pressing challenges posed by climate change. My academic journey began with a Bachelor's degree in Civil Engineering, followed by a Master's in Aquacultural Engineering from IIT Kharagpur. During my Master's, I worked on SAR imagery to detect coastal aquatic structures, which sparked my passion for radar-based remote sensing. In  MTech second year, I was honoured to receive the prestigious DLR-DAAD Fellowship, which enabled a research visit to the German Aerospace Center (DLR), Germany. There, I completed my Master's thesis under the mentorship of leading SAR expertise. Currently, I am pursuing my PhD at ICWaR, IISc Bangalore, where I continue to explore and delve deeper into the world of SAR remote sensing.",
     imageSrc: "./assets/images/team/DGawai.webp",
     email: "dnyaneshwarg@IISc.ac.in"
+  },
+  {
+    designation: "Junior Research Fellow",
+    name: "Pavan Kumar Amgoth",
+    bio: 'Hi, I’m Pavan Kumar Amgoth, a Junior Research Fellow (JRF) in the GESS group at ICWaR, IISc Bangalore. I hold a B.Tech in Civil Engineering from RGUKT, Basar (2023) and completed my M.Tech in Climate and Earth Sciences from the Centre for Atmospheric and Oceanic Sciences (CAOS), IISc (2025). My master’s research focused on developing a Storage Budget Framework using GRACE and GRACE-FO satellite data to analyse terrestrial water storage changes and their hydrological components across global basins. I work extensively with remote sensing datasets, hydrological time series, and uncertainty analysis, integrating baseflow, transpiration, and satellite-derived storage anomalies. My interests include hydroclimatic extremes, microwave remote sensing, spatial hydrology, and image-based geophysical analysis. I am particularly interested in combining satellite data with data-driven methods to study the global water cycle. Outside of research, I enjoy playing cricket and table tennis.  More at: <a href="https://pavankz.github.io/portfolio/" target="_blank">https://pavankz.github.io/portfolio/</a>',
+    imageSrc: "./assets/images/team/PavanKA.webp",
+    email: "amgothpavan@IISc.ac.in"
   }
 ];
 export const alumni: TeamMember[] = [

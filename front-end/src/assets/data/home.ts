@@ -51,7 +51,12 @@ export const data = {
       "name": "Dnyaneshwar",
       "role": "PhD Student",
       "imageSrc": "./assets/images/team/DGawai.webp"
-    }
+    },
+    {
+      "name": "Pavan",
+      "role": "Junior Research Fellow",
+      "imageSrc": "./assets/images/team/PavanKA.webp"
+    },
   ],
   latestPublication: {
     title: "Latest publication",
