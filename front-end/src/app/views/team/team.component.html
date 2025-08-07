@@ -20,8 +20,8 @@
               <h6 class="mb-0">{{ member.designation }}</h6>
             </div>
           </div>
-          <p class="mt-3 card-text" [innerHTML]="member.bio"></p>
-          <h6 *ngIf="member.email" >Email: <a [href]="'mailto:' + member.email">{{ member.email }}</a></h6>
+          <p class="mt-3 card-text">{{member.bio}} <a [href]="member.externalLink" target="_blank" style="color: #00BFFF;">{{member.externalLink}}</a></p>
+          <h6 *ngIf="member.email" >Email: <a [href]="'mailto:' + member.email" style="color: goldenrod;">{{ member.email }}</a></h6>
         </div>
       }
     </div>
@@ -39,10 +39,12 @@
             <img [src]="member.imageSrc" [alt]="member.name" class="team-image me-3">
             <div>
               <h4 class="font-poppins mb-1">{{ member.name }}</h4>
-              <h6 class="mb-0">{{ member.designation }}</h6>
+              <h6 class="mb-1">{{ member.designation }}</h6>
+              <h6 class="mb-0">{{ member.duration }}</h6>
             </div>
           </div>
           <p class="mt-3 card-text">{{ member.bio }}</p>
+          <p class="mt-3 card-text"><b>Present Affiliation:</b> <span style="color: 	#00BFFF;"> {{ member.currentStatus }}</span></p>
         </div>
       }
     </div>

@@ -23,6 +23,11 @@ export const data = {
       imageSrc: "./assets/images/team/RetinderK.webp"
     },
     {
+      name: "Satish",
+      role: "Postdoctoral Researcher",
+      imageSrc: "./assets/images/team/KSatishKumar.webp"
+    },
+    {
       name: "Vivek",
       role: "PhD Student",
       imageSrc: "./assets/images/team/VivekY.webp"
@@ -48,22 +53,22 @@ export const data = {
       imageSrc: "./assets/images/team/AbhirupPal.webp"
     },
     {
-      "name": "Dnyaneshwar",
-      "role": "PhD Student",
-      "imageSrc": "./assets/images/team/DGawai.webp"
+      name: "Dnyaneshwar",
+      role: "PhD Student",
+      imageSrc: "./assets/images/team/DGawai.webp"
     },
     {
-      "name": "Pavan",
-      "role": "Junior Research Fellow",
-      "imageSrc": "./assets/images/team/PavanKA.webp"
+      name: "Pavan",
+      role: "Junior Research Fellow",
+      imageSrc: "./assets/images/team/PavanKA.webp"
     },
   ],
   latestPublication: {
     title: "Latest publication",
-    description: "We have recently developed a data-driven geophysical framework that employs GRACE satellite gravimetry and GPS vertical land motion data to separate present-day mass changes from slow solid Earth mass changes due to visco-elastic response of the Earth to glacial cycles. This provides us with data-driven estimate of GIA that is significantly different over Alaska and Greenland. We hope that the new GIA field will advance our understanding of the sea level budget and Greenland mass changes.",
+    description: "The need for accurate Evapotranspiration (ET) estimates has never been more pressing, particularly in the face of climate change and increasing water demands. In our recent work published in ERL, (Goswami et al., 2024), we use water budget and Kalman filter, along with several estimates of all the hydrometeorological variables in the water cycle to estimate ET, referred to as KF-ET from here on. We show that KF-Et is superior to existing modelled estimates and it capture natural variability and human signatures. The KF-ET product could serve as a benchmark ET product for several regions, for example the Ganges and Amazon Basins, where both natural variability and human interventions significantly affect the hydrological cycle. With better tools to estimate ET, we can now tackle some of the most critical challenges in hydrology and help build a more sustainable future for global water management.",
     blogLink: "/blogs",
-    articleLink: "https://academic.oup.com/gji/article/232/1/537/6674208?login=false",
-    imageSrc: "./assets/images/logoAndBanner/ggac336fig7.jpeg"
+    articleLink: "https://iopscience.iop.org/article/10.1088/1748-9326/ad63bd/meta",
+    imageSrc: "./assets/images/logoAndBanner/LatestPublication.png"
   },
   blogPosts: [
     {

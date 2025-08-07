@@ -1,5 +1,8 @@
 export interface TeamMember {
   designation: string;
+  currentStatus?: string;
+  duration?: string;
+  externalLink?: string;
   name: string;
   bio: string;
   imageSrc: string;
@@ -25,6 +28,13 @@ export const currentTeam: TeamMember[] = [
     bio: "I have a PhD in remote sensing from Birla Institute of Technology Mesra, Jharkhand and a master's in remote sensing and GIS from University of Jammu, J&K. For both my master and PhD thesis, I worked on snow cover dynamics and climate change impact on the hydrological regime of Chenab basin, western Himalayas. My research areas include snow/glacier dynamics and characterization using optical and thermal remote sensing datasets, future projections of climate variables using empirical‐statistical downscaling methods, and hydrological modelling. I enjoy painting in my spare time.",
     imageSrc: "./assets/images/team/RetinderK.webp",
     email: "retinderkour@IISc.ac.in"
+  },
+  {
+    designation: "Postdoctoral Researcher",
+    name: "K Satish Kumar",
+    bio: 'I hold a B.Tech degree in Civil Engineering and an M.Tech in Water Resources Engineering from Maulana Azad National Institute of Technology (MANIT), Bhopal. I completed my Ph.D. at the National Institute of Technology (NIT), Warangal, where my research focused on "Drought Assessment in South Indian River Basins using Reconstructed GRACE Data to Examine Terrestrial Water Storage and Teleconnections." Following my doctoral studies, I joined the Indian Institute of Science (IISc), Bangalore, as an IoE Post-Doctoral Fellow, where I worked on understanding and estimating hydrological components using GRACE satellite datasets, as well as improving water budget closure. Currently, I am engaged in a project on the development and integration of a dynamic and interactive aquifer layer into CFSv2 to enhance extended-range monsoon prediction.',
+    imageSrc: "./assets/images/team/KSatishKumar.webp",
+    email: "ksatishkumar@IISc.ac.in"
   },
   {
     designation: "PhD Student",
@@ -71,7 +81,8 @@ export const currentTeam: TeamMember[] = [
   {
     designation: "Junior Research Fellow",
     name: "Pavan Kumar Amgoth",
-    bio: 'Hi, I’m Pavan Kumar Amgoth, a Junior Research Fellow (JRF) in the GESS group at ICWaR, IISc Bangalore. I hold a B.Tech in Civil Engineering from RGUKT, Basar (2023) and completed my M.Tech in Climate and Earth Sciences from the Centre for Atmospheric and Oceanic Sciences (CAOS), IISc (2025). My master’s research focused on developing a Storage Budget Framework using GRACE and GRACE-FO satellite data to analyse terrestrial water storage changes and their hydrological components across global basins. I work extensively with remote sensing datasets, hydrological time series, and uncertainty analysis, integrating baseflow, transpiration, and satellite-derived storage anomalies. My interests include hydroclimatic extremes, microwave remote sensing, spatial hydrology, and image-based geophysical analysis. I am particularly interested in combining satellite data with data-driven methods to study the global water cycle. Outside of research, I enjoy playing cricket and table tennis.  More at: <a href="https://pavankz.github.io/portfolio/" target="_blank">https://pavankz.github.io/portfolio/</a>',
+    bio: 'Hi, I’m Pavan Kumar Amgoth, a Junior Research Fellow (JRF) in the GESS group at ICWaR, IISc Bangalore. I hold a B.Tech in Civil Engineering from RGUKT, Basar (2023) and completed my M.Tech in Climate and Earth Sciences from the Centre for Atmospheric and Oceanic Sciences (CAOS), IISc (2025). My master’s research focused on developing a Storage Budget Framework using GRACE and GRACE-FO satellite data to analyse terrestrial water storage changes and their hydrological components across global basins. I work extensively with remote sensing datasets, hydrological time series, and uncertainty analysis, integrating baseflow, transpiration, and satellite-derived storage anomalies. My interests include hydroclimatic extremes, microwave remote sensing, spatial hydrology, and image-based geophysical analysis. I am particularly interested in combining satellite data with data-driven methods to study the global water cycle. Outside of research, I enjoy playing cricket and table tennis.  More at:',
+    externalLink: "https://pavankz.github.io/portfolio/",
     imageSrc: "./assets/images/team/PavanKA.webp",
     email: "amgothpavan@IISc.ac.in"
   }
@@ -79,26 +90,42 @@ export const currentTeam: TeamMember[] = [
 export const alumni: TeamMember[] = [
   {
     designation: "Postdoctoral Researcher",
+    duration: "(March 2022 - April 2025)",
+    currentStatus: "Post Doctoral Scientist at Umeå University",
     name: "Arindan Mandal",
-    bio: "Hi, I am a Postdoctoral Fellow at ICWaR since March 2022. I received my PhD from Jawaharlal Nehru University, New Delhi in January, 2022. My interest lies in studying the interaction between glaciers and climate in the Himalayan region. As part of my postdoctoral project, I plan to conduct physically-based mass balance modelling of the Ladakh and Karakoram glaciers. To know more about me, please visit: <https://arindan.github.io>.",
+    bio: "Dr. Arindan’s research at ICWaR focused on the interaction between glaciers and climate in the Himalayan region. As part of his postdoctoral work, he conducted physically-based mass balance modelling of glaciers in the Ladakh and Karakoram regions. He initially joined ICWaR as an IOE Postdoctoral Fellow and later secured the prestigious National Post Doctoral Fellowship (NPDF), awarded by the Science and Engineering Research Board (SERB), Government of India.",
     imageSrc: "./assets/images/team/ArindanM.webp",
   },
   {
     designation: "Postdoctoral Researcher",
+    duration: "(August 2023 - June 2024)",
+    currentStatus: "Graduate Engineer at AtkinsRéalis",
+    name: "Aayushi Kochar",
+    bio: "Ayushi Kochar completed her Master’s thesis in GESS Group at ICWaR. Her work focused on exploring the rainfall–soil moisture relationship using the Linear Time-Invariant (LTI) systems approach.",
+    imageSrc: "./assets/images/team/AayushiK.webp",
+  },
+  {
+    designation: "Postdoctoral Researcher",
+    duration: "(November 2022 - September 2023)",
+    currentStatus: "Sr Research Engineer at Verisk Analytics India Pvt. Ltd.",
     name: "Pushkar Sharma",
-    bio: "Hi, I have been a Postdoctoral Fellow at ICWaR, IISc, since November 2022. I completed my bachelor’s in Civil Engineering from SCET, Surat. Further, I did M.E. in Hydraulic Structures from MSU, Vadodara, and PhD from IIT Bombay. In my master's, I worked on Dam break analysis and flood plain map generation; in PhD, I worked on quantifying climate and catchment effects on streamflow using the Budyko framework. I like playing Table Tennis. My research interests include hydraulic engineering and Budyko framework for estimation of evapotranspiration.",
+    bio: "Dr. Pushkar Sharma worked as an IOE Postdoctoral Fellow at ICWaR. His research focused on the Budyko framework for the estimation of evapotranspiration.",
     imageSrc: "./assets/images/team/PushkarS.webp"
   },
   {
     designation: "Senior Project Associate",
+    duration: "(June 2022 - August 2023)",
+    currentStatus: "PhD Student at the University of Twente, The Netherlands",
     name: "Amin Shakya",
-    bio: "I have a bachelor’s degree in Civil Engineering, and a double master's degree in Water Science and Engineering from the IHE Delft Institute for Water Education, the Netherlands, and TU Dresden, Germany. My research interests lie around hydroinformatics, disaster risk management, and sociotechnical innovation. Currently, I am working at the Geodesy for Earth System Science lab at the ICWaR, IISc on the downscaling of GRACE gravimetric satellite hydrological product for the Indian region, as a part of the ISRO-IISc Space Technologies Cell project.",
+    bio: "Amin Shakya worked as a Senior Project Associate at ICWaR, contributing to the ISRO–IISc Space Technologies Cell project. His work focused on the downscaling of GRACE gravimetric satellite hydrological products for the Indian region.",
     imageSrc: "./assets/images/team/AminShakya.webp"
   },
   {
     designation: "C V Raman Postdoctoral Fellow",
+    duration: "(November 2022 - March 2023)",
+    currentStatus: "Faculty at IIT Roorkee",
     name: "Abhishek",
-    bio: "I have a B. Tech (2017) and M. Tech (2019) in Civil Engineering and Groundwater Hydrology, respectively, from IIT Roorkee, and Ph.D. (2022) in Water Resources Engineering from TokyoTech, Japan. I work on the global and regional hydrological cycle, groundwater and sustainability, GRACE terrestrial water storage, remote sensing and machine learning methods, and identification of hydro-climatic extremes. To know more, please visit https://www.researchgate.net/profile/Abhishek-12.",
+    bio: "Dr. Abhishek worked as a C V Raman Postdoctoral Fellow at ICWaR. His research focused on GRACE-based terrestrial water storage estimation, remote sensing and machine learning methods, and the identification of hydro-climatic extremes.",
     imageSrc: "./assets/images/team/Abhishek.webp"
   }
 ];

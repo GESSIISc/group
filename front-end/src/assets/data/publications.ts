@@ -1,11 +1,7 @@
 export const data = [
   {
-    "title": "C. Ternikar, S. Goswami, R. Kandala, et al. “Challenges in Validating Large-Scale ET Estimates: A Comparative Study of Six Global Products”. ESS Open Archive. December 11, 2024. doi: 10.22541/essoar.173393976.69532665/v1.",
-    "link": "https://doi.org/10.22541/essoar.173393976.69532665/v1"
-  },
-  {
-    "title": "S. Goswami, C. R. Ternikar, R. Kandala, N. S. Pillai, V. K. Yadav, J. Joseph, S. Ghosh, B. D. Vishwakarma “Water budget-based evapotranspiration product captures natural and human-caused variability”, (2024), Env. Res. Letters, 19(9), 094034, doi: 10.1088/1748-9326/ad63bd.",
-    "link": "https://doi.org/10.1088/1748-9326/ad63bd"
+    "title": "B. D. Vishwakarma, H. Steffen, R. E. M. Riva, and R. Steffen, “A Brief History of GIA Research and Recent Advances via Remote Sensing”, (2025), Remote Sensing for Geophysicists, pp. 49‑61, CRC Press.",
+    "link": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003485278-5/brief-history-gia-research-recent-advances-via-remote-sensing-bramha-dutt-vishwakarma-holger-steffen-riccardo-riva-rebekka-steffen"
   },
   {
     "title": "A. Mandal, B. D. Vishwakarma, T. Angchuk, M. F. Azam, P. K. Garg, and M. Soheb “Glacier mass balance and its climatic and non-climatic drivers in the Ladakh region during 2000-2021 from remote sensing data”, (2024), Journal of Glaciology, 1-23, published online, doi: 10.1017/jog.2024.19.",
