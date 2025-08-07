@@ -87,6 +87,8 @@ export const data = {
     }
   ],
   groupNews: [
+    "Dr. Maya Raghunath Suryawanshi has been awarded the prestigious DST INSPIRE Faculty Fellowship by the Department of Science and Technology, Government of India.",
+    "Vivek Kumar Yadav is currently undertaking part of his doctoral research at the University of Melbourne under a research exchange program.",
     "We are excited to share that Dr. Arindan Mandal will visit AI4EO lab at TU Munich, Germany, as an exchange researcher under the Beyond Fellowship scheme. Huge congratulations to Arindan.",
     "Balaram Shaw has been granted the prestigious Prime Ministers Research fellowship for his PhD. We wish him all the best."
   ]
