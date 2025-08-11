@@ -83,7 +83,7 @@ export const currentTeam: TeamMember[] = [
     name: "Alok Kumar",
     bio: "Hi Everyone, I am a passionate researcher with a Master’s degree (MSc.) in Environmental Science from Jawaharlal Nehru University, New Delhi. I have worked on a year-long dissertation project where I tried to study 'Nature-based Solutions, such as Urban Green Spaces for Mitigating Air Pollution and Understanding How Plants Tolerate Abiotic Stressors'. Parallel to this, I developed a keen interest in Earth System Sciences during my MSc degree. Hence, I joined ICWaR in August 2025 to explore the hidden associations of Major Water Resources with Other Components of the Earth system. Apart from academic enthusiasm, I love to write poems, satires and some stories.",
     imageSrc: "./assets/images/team/AlokKumar.webp",
-    email: "dalokk@IISc.ac.in"
+    email: "alokk@IISc.ac.in"
   },
   {
     designation: "Junior Research Fellow",
