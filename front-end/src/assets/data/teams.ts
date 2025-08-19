@@ -108,7 +108,7 @@ export const alumni: TeamMember[] = [
     duration: "(August 2023 - June 2024)",
     currentStatus: "Graduate Engineer at AtkinsRéalis",
     name: "Aayushi Kochar",
-    bio: "Ayushi Kochar completed her Master’s thesis in GESS Group at ICWaR. Her work focused on exploring the rainfall–soil moisture relationship using the Linear Time-Invariant (LTI) systems approach.",
+    bio: "Aayushi Kochar completed her Master’s thesis in the GESS Group at ICWaR. Her work focused on exploring the use of Linear Time-Invariant (LTI) system modeling to estimate soil moisture dynamics and quantify irrigation water volumes across India by analyzing the discrepancy between model predictions and satellite observations during non-precipitation periods.",
     imageSrc: "./assets/images/team/AayushiK.webp",
   },
   {
