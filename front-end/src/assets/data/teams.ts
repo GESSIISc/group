@@ -84,17 +84,17 @@ export const currentTeam: TeamMember[] = [
     bio: "Hi Everyone, I am a passionate researcher with a Master’s degree (MSc.) in Environmental Science from Jawaharlal Nehru University, New Delhi. I have worked on a year-long dissertation project where I tried to study 'Nature-based Solutions, such as Urban Green Spaces for Mitigating Air Pollution and Understanding How Plants Tolerate Abiotic Stressors'. Parallel to this, I developed a keen interest in Earth System Sciences during my MSc degree. Hence, I joined ICWaR in August 2025 to explore the hidden associations of Major Water Resources with Other Components of the Earth system. Apart from academic enthusiasm, I love to write poems, satires and some stories.",
     imageSrc: "./assets/images/team/AlokKumar.webp",
     email: "alokk@IISc.ac.in"
-  },
-  {
-    designation: "Junior Research Fellow",
-    name: "Pavan Kumar Amgoth",
-    bio: 'Hi, I’m Pavan Kumar Amgoth, a Junior Research Fellow (JRF) in the GESS group at ICWaR, IISc Bangalore. I hold a B.Tech in Civil Engineering from RGUKT, Basar (2023) and completed my M.Tech in Climate and Earth Sciences from the Centre for Atmospheric and Oceanic Sciences (CAOS), IISc (2025). My master’s research focused on developing a Storage Budget Framework using GRACE and GRACE-FO satellite data to analyse terrestrial water storage changes and their hydrological components across global basins. I work extensively with remote sensing datasets, hydrological time series, and uncertainty analysis, integrating baseflow, transpiration, and satellite-derived storage anomalies. My interests include hydroclimatic extremes, microwave remote sensing, spatial hydrology, and image-based geophysical analysis. I am particularly interested in combining satellite data with data-driven methods to study the global water cycle. Outside of research, I enjoy playing cricket and table tennis.  More at:',
-    externalLink: "https://pavankz.github.io/portfolio/",
-    imageSrc: "./assets/images/team/PavanKA.webp",
-    email: "amgothpavan@IISc.ac.in"
   }
 ];
 export const alumni: TeamMember[] = [
+  {
+    designation: "Junior Research Fellow",
+    duration: "(July 2024 - August 2025)",
+    currentStatus: "Doctoral Researcher at IRD, France",
+    name: "Pavan Kumar Amgoth",
+    bio: " Pavan completed his master's thesis in the GESS group at ICWaR. His work focused on developing a Storage Budget Framework using GRACE and GRACE-FO satellite data to analyse terrestrial water storage changes and their hydrological components across global basins.",
+    imageSrc: "./assets/images/team/PavanKA.webp",
+  },
   {
     designation: "Postdoctoral Researcher",
     duration: "(March 2022 - April 2025)",

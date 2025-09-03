@@ -61,12 +61,7 @@ export const data = {
       name: "Alok",
       role: "PhD Student",
       imageSrc: "./assets/images/team/AlokKumar.webp"
-    },
-    {
-      name: "Pavan",
-      role: "Junior Research Fellow",
-      imageSrc: "./assets/images/team/PavanKA.webp"
-    },
+    }
   ],
   latestPublication: {
     title: "Latest publication",
