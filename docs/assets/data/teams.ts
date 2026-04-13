@@ -84,6 +84,13 @@ export const currentTeam: TeamMember[] = [
     bio: "Hi Everyone, I am a passionate researcher with a Master’s degree (MSc.) in Environmental Science from Jawaharlal Nehru University, New Delhi. I have worked on a year-long dissertation project where I tried to study 'Nature-based Solutions, such as Urban Green Spaces for Mitigating Air Pollution and Understanding How Plants Tolerate Abiotic Stressors'. Parallel to this, I developed a keen interest in Earth System Sciences during my MSc degree. Hence, I joined ICWaR in August 2025 to explore the hidden associations of Major Water Resources with Other Components of the Earth system. Apart from academic enthusiasm, I love to write poems, satires and some stories.",
     imageSrc: "./assets/images/team/AlokKumar.webp",
     email: "alokk@IISc.ac.in"
+  },
+  {
+    designation: "Program Assistant",
+    name: "Kritagya Kumar Singh Tomar",
+    bio: "I am a Program Assistant at the ICWaR at the Indian Institute of Science, where I work on linked problems in hydrology and cryosphere science. I completed a BA (Honours) in Geography from Banaras Hindu University in 2023, followed by an MA in Geography with a specialization in Hydrology from the University of Mumbai in 2025. My master’s work applied the Water Accounting Plus framework to basin-scale hydrology to understand flow partitioning, evapotranspiration, and water use for decision-relevant assessment. This led to my role at the Centre for Public Policy at the Indian Institute of Management Bangalore, where I used transformer-based models to study environmental behavior and climate-linked decisions. I now work on the ISRO-funded IGLOO-IHR project, which examines glacier-lake interactions and GLOF risk in the Indian Himalayan region, with a focus on subglacial hydrology and its control on ice flow, including large glacier systems in Antarctica and the Himalaya. My research connects glaciology, hydrology, and computational modeling, with a focus on transforming sparse observations into interpretable structures and moving from pixels to processes in complex Earth systems.",
+    imageSrc: "./assets/images/team/Kritagya_Tomar.webp",
+    email: "kritagyat@IISc.ac.in"
   }
 ];
 export const alumni: TeamMember[] = [

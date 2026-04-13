@@ -18,6 +18,11 @@ export const data = {
       imageSrc: "./assets/images/team/MayaRS.webp"
     },
     {
+      name: "Jisha",
+      role: "DST INSPIRE Faculty",
+      imageSrc: "./assets/images/team/Dr.JishaJoseph.webp"
+    },
+    {
       name: "Retinder",
       role: "Postdoctoral Researcher",
       imageSrc: "./assets/images/team/RetinderK.webp"
@@ -43,7 +48,7 @@ export const data = {
       imageSrc: "./assets/images/team/ChethanVA.webp"
     },
     {
-      name: "Vandana S",
+      name: "Vandana",
       role: "PhD Student",
       imageSrc: "./assets/images/team/VandanaS.webp"
     },
@@ -61,6 +66,26 @@ export const data = {
       name: "Alok",
       role: "PhD Student",
       imageSrc: "./assets/images/team/AlokKumar.webp"
+    },
+    {
+      name: "Prajakta",
+      role: "PhD Student",
+      imageSrc: "./assets/images/team/PrajaktaAS.webp"
+    },
+    {
+      name: "Mrinal",
+      role: "PhD Student",
+      imageSrc: "./assets/images/team/MrinalGoswami.webp"
+    },
+    {
+      name: "Amiya",
+      role: "Joint PhD Student",
+      imageSrc: "./assets/images/team/AmiyaKumarSur.webp"
+    },
+    {
+      name: "Kritagya",
+      role: "Program Assistant",
+      imageSrc: "./assets/images/team/Kritagya_Tomar.webp"
     }
   ],
   latestPublication: {
