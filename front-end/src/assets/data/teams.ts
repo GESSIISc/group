@@ -23,6 +23,13 @@ export const currentTeam: TeamMember[] = [
     email: "mayas@IISc.ac.in"
   },
   {
+    designation: "DST INSPIRE Faculty",
+    name: "Jisha Joseph",
+    bio: "I completed my B.Tech in Civil Engineering from National Institute of Technology Calicut, followed by an integrated M.Tech and Ph.D. in Water Resources Engineering from Indian Institute of Technology Bombay. During my Ph.D., I developed an irrigation module tailored to Indian agricultural systems, incorporating multiple crop varieties, flood irrigation practices, a dedicated mechanism for paddy cultivation, and groundwater abstraction. I then pursued a postdoctoral position at Potsdam Institute for Climate Impact Research in the Hydroclimatic Risk Group, where I worked with the Soil and Water Integrated Model (SWIM). My work focused on large-scale hydrological modelling over Europe, including climate attribution and assessing changes in river flow regimes under future climate scenarios.My current research focuses on developing sustainable adaptation strategies for water-stressed regions of India. Building on my experience in hydroclimatic modelling and irrigation dynamics, I aim to assess how changes in crop patterns, irrigation practices, and water management can reduce groundwater water stress under future climate scenarios.",
+    imageSrc: "./assets/images/team/Dr.JishaJoseph.webp",
+    email: "jishajoseph@IISc.ac.in"
+  },
+  {
     designation: "Postdoctoral Researcher",
     name: "Retinder Kour",
     bio: "I have a PhD in remote sensing from Birla Institute of Technology Mesra, Jharkhand and a master's in remote sensing and GIS from University of Jammu, J&K. For both my master and PhD thesis, I worked on snow cover dynamics and climate change impact on the hydrological regime of Chenab basin, western Himalayas. My research areas include snow/glacier dynamics and characterization using optical and thermal remote sensing datasets, future projections of climate variables using empirical‐statistical downscaling methods, and hydrological modelling. I enjoy painting in my spare time.",
