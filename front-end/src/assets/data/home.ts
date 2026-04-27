@@ -83,6 +83,11 @@ export const data = {
       imageSrc: "./assets/images/team/AmiyaKumarSur.webp"
     },
     {
+      name: "Lipika",
+      role: "Project Associate",
+      imageSrc: "./assets/images/team/Lipika_Dutta.webp"
+    },
+    {
       name: "Kritagya",
       role: "Program Assistant",
       imageSrc: "./assets/images/team/Kritagya_Tomar.webp"
