@@ -100,9 +100,28 @@
   </a>
 </div>
 
-<div class="container-fluid py-5 p-lg-5 p-1 text-center text-white " style="background-color: rgba(40,40,40);">
+<!-- Group News -->
+<div class="container-fluid py-5 p-lg-5 p-1 text-center text-white" style="background-color: rgba(40,40,40);">
   <h1 class="font-poppins" style="font-size: 3.33vmax;">Group News</h1>
-  <ul class="m-lg-5 m-2 font-noto-sans font-h3" style="text-align: justify;line-height: 2.5vmax;">
-    <li *ngFor="let news of data.groupNews">{{news}}</li>
+  <ul class="m-lg-5 m-2 font-noto-sans font-h3" style="text-align: justify; line-height: 2.5vmax;">
+    <li *ngFor="let news of data.groupNews" class="mb-3" [style.cursor]="news.details ? 'pointer' : 'default' "(click)="news.details && openModal(news)">
+      <span [class.text-info]="news.details">{{ news.title }}</span>
+    </li>
   </ul>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="newsModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header border-secondary">
+        <h5 class="modal-title">{{ selectedNews?.title }}</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img *ngIf="selectedNews?.image" [src]="selectedNews.image" class="img-fluid rounded mb-3" style="max-height: 400px; object-fit: contain;">
+        <p class="font-noto-sans" style="text-align: justify; line-height: 2rem;">{{ selectedNews?.details }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+

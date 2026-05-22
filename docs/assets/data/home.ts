@@ -117,6 +117,15 @@ export const data = {
     }
   ],
   groupNews: [
-    "August, 2025: Dr. Maya Raghunath Suryawanshi has been awarded the prestigious DST INSPIRE Faculty Fellowship by the Department of Science and Technology, Government of India.",
+    {
+      title: "February, 2026: Mr. Balaram Shaw received the Outstanding Oral Presentation Award at Roorkee Water Conclave (RWC) 2026",
+      details: `Balaram received the Outstanding Oral Presentation Award at Roorkee Water Conclave (RWC) 2026 for presenting collaborative research on the impact of climate change and human activities on the available water in the Helmand River Basin. This basin holds significance due to the transboundary water-sharing dispute between Afghanistan and Iran. The study highlighted the need for adaptive water governance and management strategies to support sustainable and equitable water-resource planning.`,
+      image: "assets/images/News/Balaram_RWC_2026.jpeg"
+    },
+    {
+      title: "August, 2025: Dr. Maya Raghunath Suryawanshi has been awarded the prestigious DST INSPIRE Faculty Fellowship by the Department of Science and Technology, Government of India.",
+      details: null,
+      image: null
+    }
   ]
 };
