@@ -44,6 +44,13 @@ export const currentTeam: TeamMember[] = [
     email: "ksatishkumar@IISc.ac.in"
   },
   {
+    designation: "Postdoctoral Researcher",
+    name: "Manmit Kumar Singh",
+    bio: `I have a Bachelor of Engineering degree in Civil Engineering, a Master of Technology in Climate Science and Technology, and a Ph.D. in Civil Engineering from the Earth System Science and Engineering Division. In my master's thesis, I focused on the interannual variability of surface marine chlorophyll (SMC) and its impact on chlorophyll concentration using MODIS data and ROMS simulations. For my Ph.D. thesis, I used advanced geospatial techniques to study snow geophysical parameters, focusing specifically on parts of the Northeastern Indian Himalayas. I work with multiple Earth observation and remote sensing datasets including SAR polarimetry, InSAR, and hyperspectral data to study rapidly changing cryospheric processes under climate pressure.`,
+    imageSrc: "./assets/images/team/ManmitKumarSingh.webp",
+    email: "manmitk@IISc.ac.in"
+  },
+  {
     designation: "PhD Student",
     name: "Vivek Yadav",
     bio: "Hello, I am a PhD student in the GESS group at ICWaR, IISc. I am from the Ghazipur district of eastern Uttar Pradesh. I completed my bachelor’s in civil engineering from BIET, Jhansi. In my B. Tech project I designed a Raw Water Treatment Plant for the Institute. As a seminar project, I looked into the impacts of Farakka Barrage & Institutional decisions on annual flooding in the Bihar state. Besides, I like reading non-fiction books and all outdoor sports. My research interests are Hydro-Climatology, Hydrology, and Remote Sensing.",

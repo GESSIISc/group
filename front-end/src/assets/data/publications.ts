@@ -127,6 +127,10 @@ export const data = {
 ],
   conferences: [
     {
+      "title": "Suryawanshi, M. R., Satish Kumar, K., Shaw, B., Varadaganahalli Anandagowda, C., Sukumaran, V., Kochar, A., Sekhar, M., Goswami, S., Chander, S., Nikam, B. R., Dasika, N. K., and Vishwakarma, B. D.: Dynamic specific yield explains accelerated groundwater loss, EGU General Assembly 2026, Vienna, Austria, 3–8 May 2026, EGU26-11629, https://doi.org/10.5194/egusphere-egu26-11629, 2026.",
+      "link": "https://doi.org/10.5194/egusphere-egu26-11629"
+    },
+    {
       "title": "V A, C. and Vishwakarma, B. D.: Understanding the errors in ocean tide models for improved GRACE gravity field recovery, EGU General Assembly 2026, Vienna, Austria, 3–8 May 2026, EGU26-412, https://doi.org/10.5194/egusphere-egu26-412, 2026.",
       "link": "https://doi.org/10.5194/egusphere-egu26-412"
     }
