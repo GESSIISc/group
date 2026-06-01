@@ -1,40 +1,50 @@
 <div class="container-fluid w-100 bg-white">
   <h1 class="font-poppins text-center p-4" style="font-size: 4.16vmax;">Blog posts</h1>
   <div class="row justify-content-center m-3 p-4">
-  @for (item of data;track item.date) {
-    <div id= "blog-{{item.id}}" class="px-lg-5 col-12 col-lg-4 my-lg-5 my-3" style="height: fit-content;"  (click)="openModal(selectedBlogDisplay,item.id)">
-    <div style="overflow: hidden;">
-      <img src={{item.imgSrc}} style="object-fit:cover;  height: clamp(50vh,50vh,50vh);"  class="card-img-top img-hover-zoom">
-    </div>
-      <div class="card-body">
-        <h5 class="card-title font-poppins " style="font-size: 1.66 vmax; word-wrap: break-word;">{{item.title}} </h5>
-        <p class="card-text font-noto-sans font-h4" >{{item.date}}</p>
+
+    @for (item of data; track item.id) {
+      <div id="blog-{{item.id}}" class="px-lg-5 col-12 col-lg-4 my-lg-5 my-3" style="cursor: pointer; height: fit-content;" (click)="openModal(selectedBlogDisplay, item.id)">
+        <div style="overflow: hidden; border-radius: 8px;">
+          <img [src]="item.imgSrc" style="object-fit:cover; height: clamp(50vh,50vh,50vh);" class="card-img-top img-hover-zoom w-100" [alt]="item.title">
+        </div>
+        <div class="card-body px-0 py-3">
+          <h5 class="card-title font-poppins fw-bold" style="font-size: 1.66vmax; word-wrap: break-word;">{{item.title}}</h5>
+          <p class="card-text font-noto-sans text-muted">{{item.date}}</p>
+        </div>
       </div>
-    </div>
-  }
+    }
+
   </div>
 </div>
 
 <ng-template #selectedBlogDisplay>
-  <div class="modal-header justify-content-end">
-      <i class="fa fa-close float-right " aria-label="Close" (click)="modalRef.hide()"></i>
+  <div class="modal-header justify-content-end border-0">
+      <button type="button" class="btn-close" aria-label="Close" (click)="modalRef?.hide()"></button>
   </div>
+
   <div class="modal-body">
-    <article class="px-sm-5 px-3 py-5">
-      <div class="mx-auto w-100">
-         <header class=" mx-auto mb-5 text-center">
-            <div class="text-lg mb-4">
-              <time datetime="2021-11-23 00:00:00" data-sb-field-path="date">{{data[selectedBlogId-1].date}}</time>
-            </div>
-            <h1 data-sb-field-path="title">{{data[selectedBlogId-1].title}}</h1>
-            <div class="mt-6 text-lg">
-              By <span data-sb-field-path="author"><span data-sb-field-path=".firstName">Bramha Dutt</span> <span data-sb-field-path=".lastName">Vishwakarma</span></span>
-            </div>
-         </header>
-         <div class="sb-markdown w-100 mx-auto" >
-            <span style="white-space: pre-line" [innerHtml]="data[selectedBlogId - 1 ].description"></span>
-         </div>
-      </div>
-   </article>
+    @if (selectedBlog) {
+      <article class="px-sm-5 px-3 pb-5">
+        <div class="mx-auto w-100">
+           <header class="mx-auto mb-5 text-center">
+              <div class="text-muted mb-4">
+                <time [attr.datetime]="selectedBlog.date">{{selectedBlog.date}}</time>
+              </div>
+              <h1 class="mb-3 fw-bold">{{selectedBlog.title}}</h1>
+              <div class="mt-4 text-secondary">
+                by <span class="fw-bold text-dark">{{selectedBlog.author}}</span>
+              </div>
+           </header>
+
+           <div class="text-center mb-5 w-100">
+             <img [src]="selectedBlog.imgSrc" class="img-fluid rounded shadow-sm" style="max-height: 450px; object-fit: cover; width: 100%;" [alt]="selectedBlog.title">
+           </div>
+
+           <div class="sb-markdown w-100 mx-auto" style="line-height: 1.8; font-size: 1.1rem;">
+              <span style="white-space: pre-line" [innerHtml]="selectedBlog.description"></span>
+           </div>
+        </div>
+      </article>
+    }
   </div>
 </ng-template>

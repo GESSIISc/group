@@ -100,23 +100,12 @@ export const data = {
     articleLink: "https://iopscience.iop.org/article/10.1088/1748-9326/ad63bd/meta",
     imageSrc: "./assets/images/logoAndBanner/LatestPublication.png"
   },
-  blogPosts: [
-    {
-      title: "The spatial resolution of GRACE products",
-      date: "October 17, 2021",
-      imageSrc: "./assets/images/blogs/GRACE_fil_fld.png",
-      link: "/blogs",
-      queryParams: { viewBlogId: '4' }
-    },
-    {
-      title: "Data-driven signal separation helps in identifying GIA signal in Alaska",
-      date: "August 27, 2022",
-      imageSrc: "./assets/images/blogs/Illustration_GIA_method.png",
-      link: "/blogs",
-      queryParams: { viewBlogId: '1' }
-    }
-  ],
   groupNews: [
+    {
+      title: "May, 2026: Presenting our research work at European Geosciences Union General Assembly 2026 at Vienna, Austria.",
+      details: `Presenting our research work at European Geosciences Union General Assembly 2026 at Vienna, Austria.`,
+      image: "assets/images/News/Research_Presentation_EGU_2026.webp"
+    },
     {
       title: "February, 2026: Mr. Balaram Shaw received the Outstanding Oral Presentation Award at Roorkee Water Conclave (RWC) 2026",
       details: `Balaram received the Outstanding Oral Presentation Award at Roorkee Water Conclave (RWC) 2026 for presenting collaborative research on the impact of climate change and human activities on the available water in the Helmand River Basin. This basin holds significance due to the transboundary water-sharing dispute between Afghanistan and Iran. The study highlighted the need for adaptive water governance and management strategies to support sustainable and equitable water-resource planning.`,

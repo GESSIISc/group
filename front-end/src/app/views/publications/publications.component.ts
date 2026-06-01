@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
-import {data} from '../../../assets/data/publications'
+import { data } from '../../../assets/data/publications';
+
 @Component({
   selector: 'app-publications',
   templateUrl: './publications.component.html',
-  styleUrl: './publications.component.scss'
+  styleUrls: ['./publications.component.scss']
 })
 export class PublicationsComponent {
-data = data
+  pubData = data;
+  activeTab: 'journals' | 'conferences' = 'journals';
+  setActiveTab(tabName: 'journals' | 'conferences') {
+    this.activeTab = tabName;
+  }
 }

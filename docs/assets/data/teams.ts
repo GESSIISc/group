@@ -60,7 +60,7 @@ export const currentTeam: TeamMember[] = [
   {
     designation: "PhD Student",
     name: "Chethan V A",
-    bio: "Hi, I am a PhD student in the GESS group at ICWaR, IISc. I hold a bachelor's degree in Agricultural Engineering from UAS, Bengaluru (2021), and a master's in Remote Sensing and GIS with a Water Resources specialization from IIRS-ISRO, Dehradun (2023). My master's research focused on 'Downscaling of Changes in Terrestrial Water Storage for Enhanced Basin-Scale Groundwater Storage and Drought Assessment'. My PhD research is centred on GRACE Level-1B processing, Tidal aliasing, and Background model errors. Other research interests include Satellite Geodesy, Remote Sensing, and Hydrological modelling. Outside of academics, I enjoy playing outdoor sports.",
+    bio: "Hi, I'm a PhD student in the GESS group at ICWaR, Indian Institute of Science (IISc), Bengaluru. My academic journey began with a Bachelor's degree in Agricultural Engineering from the University of Agricultural Sciences, GKVK, Bengaluru (2021), followed by a Master's degree in Remote Sensing and GIS with a specialization in Water Resources from IIRS-ISRO, Dehradun (2023), where I worked on downscaling terrestrial water storage changes for improved basin-scale groundwater and drought assessment. My doctoral research explores GRACE Level-1B data processing, tidal aliasing, and background model error propagation through stochastic modelling — sitting at an exciting intersection of satellite geodesy, remote sensing, and hydrological modelling. When I'm not immersed in research, you'll find me out playing outdoor sports!",
     imageSrc: "./assets/images/team/ChethanVA.webp",
     email: "chethanv@IISc.ac.in"
   },
@@ -91,6 +91,34 @@ export const currentTeam: TeamMember[] = [
     bio: "Hi Everyone, I am a passionate researcher with a Master’s degree (MSc.) in Environmental Science from Jawaharlal Nehru University, New Delhi. I have worked on a year-long dissertation project where I tried to study 'Nature-based Solutions, such as Urban Green Spaces for Mitigating Air Pollution and Understanding How Plants Tolerate Abiotic Stressors'. Parallel to this, I developed a keen interest in Earth System Sciences during my MSc degree. Hence, I joined ICWaR in August 2025 to explore the hidden associations of Major Water Resources with Other Components of the Earth system. Apart from academic enthusiasm, I love to write poems, satires and some stories.",
     imageSrc: "./assets/images/team/AlokKumar.webp",
     email: "alokk@IISc.ac.in"
+  },
+  {
+    designation: "PhD Student",
+    name: "Prajakta Avinash Shinde",
+    bio: "Hi, I am a PhD student in the GESS group at ICWaR. I hold a bachelor’s degree in Agricultural Engineering from CAET, Dapoli and a master’s in Remote Sensing and GIS with a Water Resources specialization in IIRS-ISRO,Dehradun. During my master’s I worked on ‘Modelling groundwater level fluctuations using machine learning and MODFLOW’. My research interests include hydrological modelling, remote sensing and groundwater systems. And currently I am exploring the applications of GRACE and other satellite-derived datasets for groundwater assessment, monitoring and sustainable management.",
+    imageSrc: "./assets/images/team/PrajaktaAS.webp",
+    email: "prajaktas@IISc.ac.in"
+  },
+  {
+    designation: "PhD Student",
+    name: "Mrinal Goswami",
+    bio: "Hi! I am a researcher from the mountains, and growing up, I witnessed the impacts of climate change on fragile mountain ecosystems, which inspired me to pursue environmental research. I hold a BSc (Hons.) in Forestry, followed by an MSc in Environmental Science from Jawaharlal Nehru University. During my master’s dissertation, I developed forest fire susceptibility maps for Champawat, Uttarakhand, using machine learning algorithms and explored the relationship between forest fires and human–wildlife conflict. Later, while working on an International Union for Conservation of Nature project focused on conserving the Aravalli landscape, I developed a strong interest in understanding how water shapes ecosystem and social dynamics. I am currently exploring ecohydrology as part of my PhD at the Interdisciplinary Centre for Water Research. My interests lie in remote sensing, machine learning, and understanding how subtle environmental changes influence complex natural processes. Beyond research, I enjoy birdwatching, reading, and trekking.",
+    imageSrc: "./assets/images/team/MrinalGoswami.webp",
+    email: "mrinalg@IISc.ac.in"
+  },
+  {
+    designation: "Joint PhD Student",
+    name: "Amiya Kumar Sur",
+    bio: "Hi, I am a Joint PhD student at the Interdisciplinary Centre for Water Research (ICWaR), IISc and the University of Manchester, UK. I completed my bachelor’s degree in Computer Science and Engineering, followed by an MSc in Data Science (Environmental Analytics) from the University of Leeds as a Chevening Scholar. During my master’s dissertation, I worked on groundwater level forecasting in the Memphis Aquifer using deep learning models to understand groundwater dynamics and the influence of hydroclimatic variables on water table fluctuations. My PhD research focuses on the intersection of machine learning and climate science, particularly developing physics-informed AI for hydrological and land surface models. Currently, I am exploring simplified representations of irrigation parameterization within Earth System Models, to reduce resulting biases in energy-water fluxes and improve predictive modelling for sustainable water resource management. My broader research interests include understanding hydro-climatology,  Earth system processes and data-driven policy making. Outside academics, I enjoy hiking and community outreach activities related to climate awareness and education for marginalised communities.",
+    imageSrc: "./assets/images/team/AmiyaKumarSur.webp",
+    email: "amiyakumars@IISc.ac.in"
+  },
+  {
+    designation: "Project Associate",
+    name: "Lipika Dutta",
+    bio: "I am a Project Associate at the Interdisciplinary Centre for Water Research (ICWaR), IISc Bengaluru, where I work on glacier–lake interactions through the IGLOO-IWR project. My current work involves the SHAKTI model within the Ice Sheet System Model (ISSM) framework and Delta-K interferometry for snow water retrieval. My broader interest lies in polar regions and understanding how ice systems respond to a changing climate through the lens of microwave remote sensing. My academic background spans a B.Sc. and M.Sc. in Geography from Presidency University, Kolkata, and a Post-Graduate Diploma in Remote Sensing and GIS from IIRS–ISRO, Dehradun. During my PG Diploma. Outside research, I enjoy reading and traveling.",
+    imageSrc: "./assets/images/team/Lipika_Dutta.webp",
+    email: "lipikad@IISc.ac.in"
   },
   {
     designation: "Program Assistant",

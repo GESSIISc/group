@@ -1,4 +1,5 @@
-export const data = [
+export const data = {
+  journals: [
   {
     "title": "B. D. Vishwakarma, H. Steffen, R. E. M. Riva, and R. Steffen, “A Brief History of GIA Research and Recent Advances via Remote Sensing”, (2025), Remote Sensing for Geophysicists, pp. 49‑61, CRC Press.",
     "link": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003485278-5/brief-history-gia-research-recent-advances-via-remote-sensing-bramha-dutt-vishwakarma-holger-steffen-riccardo-riva-rebekka-steffen"
@@ -123,4 +124,11 @@ export const data = [
     "title": "B. D. Vishwakarma, K. Jain, N. Sneeuw, and B. Devaraju “Mumbai 2005, Bihar 2008 Flood Reflected in Mass Changes Seen by GRACE Satellites”, (2013), Journal of Indian Society of Remote Sensing, 41(3), 687–695, doi:10.1007/s12524-012-0256-x.",
     "link": "https://doi.org/10.1007/s12524-012-0256-x"
   }
-];
+],
+  conferences: [
+    {
+      "title": "V A, C. and Vishwakarma, B. D.: Understanding the errors in ocean tide models for improved GRACE gravity field recovery, EGU General Assembly 2026, Vienna, Austria, 3–8 May 2026, EGU26-412, https://doi.org/10.5194/egusphere-egu26-412, 2026.",
+      "link": "https://doi.org/10.5194/egusphere-egu26-412"
+    }
+]
+}
