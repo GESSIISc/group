@@ -9,6 +9,7 @@ import { PublicationsComponent } from './views/publications/publications.compone
 import { BlogsComponent } from './views/blogs/blogs.component';
 import { SiteEditorComponent } from './views/devModeOnly/site-editor/site-editor.component';
 import { environment } from 'src/environments/environment';
+import { GraceHackweekComponent } from './views/grace-hackweek/grace-hackweek.component';
 
 const routes: Routes = [
   {path:'',component: HomepageComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'team',component:TeamComponent},
   {path:'publications',component:PublicationsComponent},
   {path:'blogs',component:BlogsComponent},
+  {path: 'grace-hackweek', component:GraceHackweekComponent},
   {path: 'edit-site',component: (!environment.production? SiteEditorComponent:NotFoundComponent)},
   {path:'**', component: NotFoundComponent}
 ];

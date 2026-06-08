@@ -1,6 +1,10 @@
 export const data = {
   journals: [
   {
+    "title": "S. K. Kuruva, M. R. Suryawanshi, A. Shakya, et al., “Quality controlled, reliable groundwater level data with corresponding specific yield over India”, (2025), Scientific Data, vol. 12, 1609, doi: 10.1038/s41597-025-05899-5.",
+    "link": "https://doi.org/10.1038/s41597-025-05899-5"
+  },
+  {
     "title": "B. D. Vishwakarma, H. Steffen, R. E. M. Riva, and R. Steffen, “A Brief History of GIA Research and Recent Advances via Remote Sensing”, (2025), Remote Sensing for Geophysicists, pp. 49‑61, CRC Press.",
     "link": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003485278-5/brief-history-gia-research-recent-advances-via-remote-sensing-bramha-dutt-vishwakarma-holger-steffen-riccardo-riva-rebekka-steffen"
   },
