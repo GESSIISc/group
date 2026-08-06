@@ -4,7 +4,7 @@ export const data = {
     imgSrc2:"./assets/images/logoAndBanner/GRACE_Banner.png",
   },
   about: {
-    info: "We are the Geodesy for Earth system science (GESS) research Group at Interdisciplinary Centre for Water Research (ICWaR) at the Indian Institute of Science (IISC). Our group is interested in using Earth observation data for monitoring and understanding the changes in the Earth system. Our core expertise is in processing and using geodetic datasets, such as GRACE, GNSS and altimetry, in tandem with other Earth observation datasets/models for mapping various surface processes that are related to climate change and human activities.",
+    info: "We are the Geodesy for Earth system science (GESS) research Group at Interdisciplinary Centre for Water Research (ICWaR) at the Indian Institute of Science (IISc). Our group is interested in using Earth observation data for monitoring and understanding the changes in the Earth system. Our core expertise is in processing and using geodetic datasets, such as GRACE, GNSS and altimetry, in tandem with other Earth observation datasets/models for mapping various surface processes that are related to climate change and human activities.",
     imageSrc: "./assets/images/logoAndBanner/SLR_illust_global_processes.png"
   },
   team: [
